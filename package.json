@@ -2,7 +2,7 @@
   "name": "password-generator",
   "productName": "Password Generator",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Password Generator",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",

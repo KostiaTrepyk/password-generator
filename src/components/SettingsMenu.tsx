@@ -78,9 +78,9 @@ const SettingsMenu: React.FC<SettingsMenuProps> = ({ open, onClose }) => {
           value={charsType}
           onChange={(e) => setCharsType(e.target.value as CharsType)}
         >
-          <MenuItem value={"alphabetic"}>Alphabetic</MenuItem>
-          <MenuItem value={"alphanumeric"}>Alphanumeric</MenuItem>
-          <MenuItem value={"numeric"}>Numeric</MenuItem>
+          <MenuItem value="alphabetic">Alphabetic</MenuItem>
+          <MenuItem value="alphanumeric">Alphanumeric</MenuItem>
+          <MenuItem value="numeric">Numeric</MenuItem>
         </Select>
 
         <FormControlLabel
